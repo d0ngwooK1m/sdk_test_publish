@@ -1,0 +1,9 @@
+jdk:
+  - openjdk17
+
+install:
+  - ./gradlew assembleRelease
+
+artifacts:
+  - path: sdk/build/outputs/aar/sdk-release.aar
+    name: sdk-release
